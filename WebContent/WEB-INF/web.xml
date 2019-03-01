@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Curs-5</display-name>
+  
+  <servlet>
+  	<servlet-name>Endpoint1</servlet-name>
+  	<servlet-class>curs5.Endpoint1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Endpoint1</servlet-name>
+  <url-pattern>/api1</url-pattern>
+  </servlet-mapping>
+    
+     <servlet>
+  	<servlet-name>Endpoint2</servlet-name>
+  	<servlet-class>curs5.Endpoint2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Endpoint2</servlet-name>
+  <url-pattern>/api2</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>Endpoint3</servlet-name>
+  	<servlet-class>curs5.Endpoint3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Endpoint3</servlet-name>
+  <url-pattern>/api3</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Endpoint4</servlet-name>
+  	<servlet-class>curs5.Endpoint4</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Endpoint4</servlet-name>
+  <url-pattern>/api4</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
